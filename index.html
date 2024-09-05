@@ -13,66 +13,101 @@
 </head>
 
 <body>
-    <div class="flex flex-col w-screen h-screen bg-1 items-center">
+    <div class="flex flex-col w-screen h-full min-h-screen bg-1 items-center">
         <!-- Hero -->
-        <div class="flex flex-col py-10 px-80 bg-2 w-screen">
-            <div class="flex flex-row justify-start gap-10 content-center items-center text-2">
-                <div class="w-40 h-40">
+        <div class="flex flex-col py-10 px-5 md:px-20 lg:px-80 bg-2 w-full">
+            <div class="flex flex-col md:flex-row justify-start gap-5 md:gap-10 items-center text-2">
+                <div class="w-24 h-24 md:w-40 md:h-40">
                     <img src="data/myphoto.jpg" alt="Profile Picture" class="rounded-full border-white border-4">
                 </div>
-                <div class="flex flex-col gap-1">
-                    <div class="text-4xl mt-[-0.5rem]">Shamit Fatin</div>
-                    <div class="text-xl">Research Assistant</div>
-                    <di class="text-lg">Applied Machine Learning Lab, BUET</di>
+                <div class="flex flex-col items-center md:items-start gap-1">
+                    <div class="text-3xl md:text-4xl mt-[-0.5rem] text-center md:text-left">Shamit Fatin</div>
+                    <div class="text-lg md:text-xl">Research Assistant</div>
+                    <div class="text-sm md:text-lg">Applied Machine Learning Lab, BUET</div>
                     <div class="mt-2 flex flex-row gap-5">
                         <div class="w-5 h-5">
-                        <a href="https://github.com/Shamit187" target="_blank">
-                            <img src="data/github.png" alt="Github">
-                        </a>
+                            <a href="https://github.com/Shamit187" target="_blank">
+                                <img src="data/github.png" alt="Github">
+                            </a>
                         </div>
                         <div class="w-5 h-5">
-                        <a href="https://www.linkedin.com/in/shamit-fatin-38a240142/" target="_blank">
-                            <img src="data/linkedin.png" alt="LinkedIn">
-                        </a>
+                            <a href="https://www.linkedin.com/in/shamit-fatin-38a240142/" target="_blank">
+                                <img src="data/linkedin.png" alt="LinkedIn">
+                            </a>
                         </div>
                         <div class="w-5 h-5">
-                        <a href="https://x.com/CuriousShamit" target="_blank">
-                            <img src="data/twitter.png" alt="Twitter">
-                        </a>
+                            <a href="https://x.com/CuriousShamit" target="_blank">
+                                <img src="data/twitter.png" alt="Twitter">
+                            </a>
                         </div>
                         <div class="w-5 h-5">
-                        <a href="https://www.facebook.com/shamit.187/" target="_blank">
-                            <img src="data/facebook.png" alt="Facebook">
-                        </a>
+                            <a href="https://www.facebook.com/shamit.187/" target="_blank">
+                                <img src="data/facebook.png" alt="Facebook">
+                            </a>
                         </div>
                         <div class="w-5 h-5">
-                        <a href="https://www.instagram.com/damnit.shamit" target="_blank">
-                            <img src="data/instagram.png" alt="Instagram">
-                        </a>
+                            <a href="https://www.instagram.com/damnit.shamit" target="_blank">
+                                <img src="data/instagram.png" alt="Instagram">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Buttons -->
-        <div class="flex flex-row justify-between px-96 text-xl items-start">
+        <div class="flex flex-row justify-between px-5 lg:px-96 text-xs lg:text-xl items-start">
             <!-- Selected -->
-            <div class="h-4 w-4 bg-2">
-                <div class="h-4 w-4 bg-1 rounded-tr-full"></div>
+            <div class="h-2 w-2 lg:h-4 lg:w-4 bg-2">
+                <div class="h-2 w-2 lg:h-4 lg:w-4 bg-1 rounded-tr-full"></div>
             </div>
-            <a href="#" class="btn-selected">Education</a>
-            <div class="h-4 w-4 bg-2">
-                <div class="h-4 w-4 bg-1 rounded-tl-full"></div>
+            <a href="#" class="btn-selected py-2 px-2">Education</a>
+            <div class="h-2 w-2 lg:h-4 lg:w-4 bg-2">
+                <div class="h-2 w-2 lg:h-4 lg:w-4 bg-1 rounded-tl-full"></div>
             </div>
 
             <!-- Unselected -->
-            <a href="#" class="btn">Work</a>
-            <a href="#" class="btn">Research</a>
-            <a href="#" class="btn">Readings</a>
-            <a href="#" class="btn">Art</a>
-            <a href="#" class="btn">Music</a>
+            <a href="#" class="btn py-2 px-2">Work</a>
+            <a href="#" class="btn py-2 px-2">Research</a>
+            <a href="#" class="btn py-2 px-2">Readings</a>
+            <a href="#" class="btn py-2 px-2">Art</a>
+            <a href="#" class="btn py-2 px-2">Music</a>
         </div>
         <!-- Content -->
+
+
+        <div class="flex flex-col w-screen md:px-96 py-10 gap-10">
+            <!-- Honors -->
+            <div class="flex flex-col">
+                <div class="flex flex-col lg:flex-row items-center gap-5">
+                    <div class="w-24 h-24 md:w-40 md:h-40">
+                        <img src="data/buet.png" alt="Profile Picture" class="rounded-full">
+                    </div>
+                    <div class="flex flex-col items-center md:items-start gap-1">
+                        <div class="text-xl md:text-3xl mt-[-0.5rem] text-center md:text-left">Bangladesh University of
+                            Engineering and Technology</div>
+                        <div class="text-sm md:text-xl">Bachelor in Computer Science and Engineering</div>
+                        <div class="text-sm md:text-xl">Graduated: 2024, CGPA: 3.9</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- High School -->
+            <div class="flex flex-col">
+                <div class="flex flex-col lg:flex-row items-center gap-5">
+                    <div class="w-24 h-24 md:w-40 md:h-40">
+                        <img src="data/sos.jfif" alt="Profile Picture" class="rounded-full">
+                    </div>
+                    <div class="flex flex-col items-center md:items-start gap-1">
+                        <div class="text-xl md:text-2xl mt-[-0.5rem] text-center md:text-left">SOS Hermann Gmeiner
+                            College Dhaka</div>
+                        <div class="text-lg md:text-xl">High School</div>
+                        <div class="text-sm md:text-lg">Graduated: 2018, GPA: 5.0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <script>
