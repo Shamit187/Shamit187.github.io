@@ -18,12 +18,14 @@
         <div class="flex flex-col py-10 px-5 md:px-20 lg:px-80 bg-2 w-full">
             <div class="flex flex-col md:flex-row justify-start gap-5 md:gap-10 items-center text-2">
                 <div class="w-24 h-24 md:w-40 md:h-40">
-                    <img src="data/myphoto.jpg" alt="Profile Picture" class="rounded-full border-white border-4">
+                    <a href="index.html">
+                        <img src="data/myphoto.jpg" alt="Profile Picture" class="rounded-full border-white border-4">
+                    </a>
                 </div>
                 <div class="flex flex-col items-center md:items-start gap-1">
                     <div class="text-3xl md:text-4xl mt-[-0.5rem] text-center md:text-left">Shamit Fatin</div>
                     <div class="text-lg md:text-xl">Research Assistant</div>
-                    <div class="text-sm md:text-lg">Applied Machine Learning Lab, BUET</div>
+                    <div class="text-base md:text-lg">Applied Machine Learning Lab, BUET</div>
                     <div class="mt-2 flex flex-row gap-5">
                         <div class="w-5 h-5">
                             <a href="https://github.com/Shamit187" target="_blank">
@@ -56,16 +58,8 @@
         </div>
         <!-- Buttons -->
         <div class="flex flex-row justify-between px-5 lg:px-96 text-xs lg:text-xl items-start">
-            <!-- Selected -->
-            <div class="h-2 w-2 bg-2 ">
-                <div class="h-2 w-2 bg-1 rounded-tr-full"></div>
-            </div>
-            <a href="education.html" class="btn-selected py-2 px-2">Education</a>
-            <div class="h-2 w-2 bg-2 ">
-                <div class="h-2 w-2 bg-1 rounded-tl-full"></div>
-            </div>
 
-            <!-- Unselected -->
+            <a href="education.html" class="btn py-2 px-2">Education</a>
             <a href="work.html" class="btn py-2 px-2">Work</a>
             <a href="research.html" class="btn py-2 px-2">Research</a>
             <a href="readings.html" class="btn py-2 px-2">Readings</a>
@@ -75,35 +69,27 @@
         <!-- Content -->
 
 
-        <div class="flex flex-col w-screen md:px-96 py-10 gap-10">
-            <!-- Honors -->
-            <div class="flex flex-col">
-                <div class="flex flex-col lg:flex-row items-center gap-5">
-                    <div class="w-24 h-24 md:w-40 md:h-40">
-                        <img src="data/buet.png" alt="Profile Picture" class="rounded-full">
-                    </div>
-                    <div class="flex flex-col items-center md:items-start gap-1">
-                        <div class="text-xl md:text-3xl mt-[-0.5rem] text-center md:text-left">Bangladesh University of
-                            Engineering and Technology</div>
-                        <div class="text-sm md:text-xl">Bachelor in Computer Science and Engineering</div>
-                        <div class="text-sm md:text-xl">Graduated: 2024, CGPA: 3.9</div>
-                    </div>
-                </div>
+        <!-- Bio Section -->
+        <div class="flex flex-col py-10 px-5 md:px-20 lg:px-80 w-screen bg-1 text-1 gap-8">
+            <!-- About Me -->
+            <div class="flex flex-col items-start">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 bg-3 text-2 p-5 rounded-lg ">About Me</h2>
+                <p class="text-base md:text-lg">Shamit Fatin</p>
             </div>
-
-            <!-- High School -->
-            <div class="flex flex-col">
-                <div class="flex flex-col lg:flex-row items-center gap-5">
-                    <div class="w-24 h-24 md:w-40 md:h-40">
-                        <img src="data/sos.jfif" alt="Profile Picture" class="rounded-full">
-                    </div>
-                    <div class="flex flex-col items-center md:items-start gap-1">
-                        <div class="text-xl md:text-2xl mt-[-0.5rem] text-center md:text-left">SOS Hermann Gmeiner
-                            College Dhaka</div>
-                        <div class="text-lg md:text-xl">High School</div>
-                        <div class="text-sm md:text-lg">Graduated: 2018, GPA: 5.0</div>
-                    </div>
-                </div>
+            <!-- Expertise -->
+            <div class="flex flex-col items-end">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 bg-3 text-2 p-5 rounded-lg">My Expertise</h2>
+                <p class="text-base md:text-lg">Machine Learning to new found love for systems!</p>
+            </div>
+            <!-- Goal -->
+            <div class="flex flex-col items-start">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4  bg-3 text-2 p-5 rounded-lg">My Goal</h2>
+                <p class="text-base md:text-lg">To never stop learning</p>
+            </div>
+            <!-- Philosophy -->
+            <div class="flex flex-col items-end">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4  bg-3 text-2 p-5 rounded-lg">My Philosophy</h2>
+                <p class="text-base md:text-lg">Meaning is meaningless</p>
             </div>
         </div>
 
