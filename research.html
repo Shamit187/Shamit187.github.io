@@ -74,120 +74,119 @@
 
         <div class="flex flex-col w-screen md:px-96 py-10 gap-10">
             
-            <div class="flex flex-col gap-2">
-                
+            <div class="flex flex-col gap-4 p-4">
+                <!-- Distill Agent Section -->
                 <div>
-                    <div class="text-3xl p-2 bg-3 rounded-lg text-center text-2">Distill Agent</div>
+                    <div class="text-xl md:text-3xl p-4 bg-blue-200 rounded-lg text-center text-blue-900">Distill Agent</div>
                     <div>
-                        <img class="float-left w-20" src="data/quote.png">
-                        <p class="text-lg mt-2">
+                        <img class="w-20 float-left" src="data/quote.png" alt="Quote Image">
+                        <p class="text-base md:text-lg mt-2">
                             DistilAgent is a framework designed to improve the autonomous UI navigation capabilities of smaller open-source language models (LLMs). In this work, we address the limitations of smaller models in handling long-horizon tasks by incorporating three components: task discretization, explicit reasoning enforcement, and exploration encouragement. DistilAgent significantly boosts task completion rates, demonstrating success by improving GPT-4's rate from 50% to 90% and enhancing LLaMA-3-8B from 0% to 60% after fine-tuning with the AutoNav1K dataset we collected. This approach democratizes access to high-performance autonomous LLM agents.
                         </p>
                     </div>
                 </div>
-
-                <div>
-                    <div class="text-3xl mr-4">Co-researchers</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">Haz Sameen Shahgir</p>
-                        <p class="text-lg">Mehbubul Hasan AL Quvi</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="text-3xl mr-4">Mentor</div>
-                    <p class="text-lg">Dr. Anindya Iqbal</p>
-                </div>
-
-                <div>
-                    <div class="text-3xl mr-4">Topics</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">LLM</p>
-                        <p class="text-lg">VLM</p>
-                        <p class="text-lg">Fine-tuning</p>
-                        <p class="text-lg">Android-shell</p>
-                    </div>
-                </div>
-
-            </div>
             
-            <div class="flex flex-col gap-2">
-                
+                <!-- Co-researchers Section -->
                 <div>
-                    <div class="text-3xl p-2 bg-3 rounded-lg text-center text-2">CXL Analysis</div>
+                    <div class="text-xl md:text-3xl mb-2">Co-researchers</div>
+                    <div class="flex flex-col md:flex-row gap-2 md:gap-5">
+                        <p class="text-base md:text-lg">Haz Sameen Shahgir</p>
+                        <p class="text-base md:text-lg">Mehbubul Hasan AL Quvi</p>
+                    </div>
+                </div>
+            
+                <!-- Mentor Section -->
+                <div>
+                    <div class="text-xl md:text-3xl mb-2">Mentor</div>
+                    <p class="text-base md:text-lg">Dr. Anindya Iqbal</p>
+                </div>
+            
+                <!-- Topics Section -->
+                <div>
+                    <div class="text-xl md:text-3xl mb-2">Topics</div>
+                    <div class="flex flex-wrap gap-2">
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">LLM</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">VLM</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Fine-tuning</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Android-shell</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-4 p-4">
+                <!-- CXL Analysis Section -->
+                <div>
+                    <div class="text-xl md:text-3xl p-4 bg-blue-200 rounded-lg text-center text-blue-900">CXL Analysis</div>
                     <div>
-                        <img class="float-left w-20" src="data/quote.png">
-                        <p class="text-lg mt-2">
-                            CXL is a recently introduced Linux driver, undergoing active development, likely to contain bugs and issues. Our goal is to fuzz the kernel to identify these problems and develop sustainable solutions. This is still and ongoing work, so new updates are soon to come.
+                        <img class="w-20 float-left" src="data/quote.png" alt="Quote Image">
+                        <p class="text-base md:text-lg mt-2 text-justify">
+                            CXL is a recently introduced Linux driver, undergoing active development, likely to contain bugs and issues. Our goal is to fuzz the kernel to identify these problems and develop sustainable solutions. This is still ongoing work, so new updates are soon to come.
                         </p>
                     </div>
                 </div>
-
-                <!-- <div>
-                    <div class="text-3xl mr-4">Co-researchers</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">Haz Sameen Shahgir</p>
-                        <p class="text-lg">Mehbubul Hasan AL Quvi</p>
-                    </div>
-                </div> -->
-
+            
+                <!-- Mentor Section -->
                 <div>
-                    <div class="text-3xl mr-4">Mentor</div>
-                    <p class="text-lg">Dr. Tanvir Ahmed Khan</p>
+                    <div class="text-xl md:text-3xl mb-2">Mentor</div>
+                    <p class="text-base md:text-lg">Dr. Tanvir Ahmed Khan</p>
                 </div>
-
+            
+                <!-- Topics Section -->
                 <div>
-                    <div class="text-3xl mr-4">Topics</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">Kernel</p>
-                        <p class="text-lg">Linux-Drivers</p>
-                        <p class="text-lg">CXL</p>
-                        <p class="text-lg">Qemu</p>
-                        <p class="text-lg">Syzkaller</p>
-                        <p class="text-lg">Fuzzing</p>
+                    <div class="text-xl md:text-3xl mb-2">Topics</div>
+                    <div class="flex flex-wrap gap-2">
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Kernel</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Linux-Drivers</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">CXL</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Qemu</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Syzkaller</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Fuzzing</p>
                     </div>
                 </div>
-
             </div>
+            
 
-            <div class="flex flex-col gap-2">
-                
+            <div class="flex flex-col gap-4 p-4">
+                <!-- Map GPT Section -->
                 <div>
-                    <div class="text-3xl p-2 bg-3 rounded-lg text-center text-2">Map GPT</div>
+                    <div class="text-xl md:text-3xl p-4 bg-blue-200 rounded-lg text-center text-blue-900">Map GPT</div>
                     <div>
-                        <img class="float-left w-20" src="data/quote.png">
-                        <p class="text-lg mt-2">
+                        <img class="w-20 float-left" src="data/quote.png" alt="Quote Image">
+                        <p class="text-base md:text-lg mt-2 text-justify">
                             Spatial problems, known for their complexity, present significant challenges for algorithmic solutions. Traditional machine learning (ML) models require specialized training for each unique scenario and often underperform in generating novel paths from historical data. In this study, we propose leveraging large language models (LLMs), utilizing diverse prompting techniques to produce viable paths. Through experiments with both GPT-4 and LLaMA3 8B, we demonstrate that LLM-based methods outperform conventional approaches, offering a flexible and efficient framework for solving complex spatial problems.
                         </p>
                     </div>
                 </div>
-
+            
+                <!-- Co-researchers Section -->
                 <div>
-                    <div class="text-3xl mr-4">Co-researchers</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">Nazmul Islam Ananto</p>
+                    <div class="text-xl md:text-3xl mb-2">Co-researchers</div>
+                    <div class="flex flex-col md:flex-row gap-2 md:gap-5">
+                        <p class="text-base md:text-lg">Nazmul Islam Ananto</p>
                     </div>
                 </div>
-
+            
+                <!-- Mentor Section -->
                 <div>
-                    <div class="text-3xl mr-4">Mentor</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">Dr. Mohammed Eunus Ali</p>
-                        <p class="text-lg">Dr. Md Rizwan Parvez</p>
+                    <div class="text-xl md:text-3xl mb-2">Mentor</div>
+                    <div class="flex flex-col md:flex-row gap-2 md:gap-5">
+                        <p class="text-base md:text-lg">Dr. Mohammed Eunus Ali</p>
+                        <p class="text-base md:text-lg">Dr. Md Rizwan Parvez</p>
                     </div>
                 </div>
-
+            
+                <!-- Topics Section -->
                 <div>
-                    <div class="text-3xl mr-4">Topics</div>
-                    <div class="flex flex-row gap-5">
-                        <p class="text-lg">LLM</p>
-                        <p class="text-lg">Prompt-Engineering</p>
-                        <p class="text-lg">Fine-tuning</p>
-                        <p class="text-lg">GNN</p>
+                    <div class="text-xl md:text-3xl mb-2">Topics</div>
+                    <div class="flex flex-wrap gap-2 md:gap-5">
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">LLM</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Prompt-Engineering</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">Fine-tuning</p>
+                        <p class="text-base md:text-lg bg-gray-200 px-2 py-1 rounded-lg">GNN</p>
                     </div>
                 </div>
-
             </div>
+            
         </div>
 
 
